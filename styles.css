@@ -1,0 +1,32 @@
+#container {
+  display: flex;
+
+  flex-flow: row wrap;
+  overflow: hidden;
+  display: inline-block;
+
+  border-color: black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.nodes {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  justify-content: center;
+}
+
+.used-node {
+  background-color: black;
+}
